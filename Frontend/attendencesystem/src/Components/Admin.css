@@ -1,0 +1,46 @@
+.center-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Align content to the top */
+    height: 100vh;
+    padding-top: 20px; /* Add desired top space */
+  }
+  
+ 
+  .center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px; /* Add desired bottom space */
+  }
+  
+  .table-styled {
+    border: 1px solid #ddd; /* Border style */
+    border-collapse: collapse; /* Collapse borders into a single border */
+    padding: 10px; /* Padding inside the table */
+  }
+  
+  .table-styled th,
+  .table-styled td {
+    padding: 8px; /* Padding inside table cells */
+  }
+  
+  .grade-form-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .grade-data {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .attendance-form {
+    margin-left: 20px;
+    flex: 1;
+    padding: 10px;
+  }
+  
+  
