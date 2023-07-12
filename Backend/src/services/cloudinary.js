@@ -1,8 +1,8 @@
 import cloudinary from 'cloudinary';
 cloudinary.config ({
-    cloud_name :process.env.CLOUD_NAME ||  "dnmah35kz" ,  
-    api_key :process.env.API_KEY  || 888131875554491, 
-    api_secret : process.env.API_SECRET || "FFO5HAe0DSlK3p1s8dGjCh9Eagk"
+    cloud_name :process.env.CLOUD_NAME ||  "Your Cloud Name" ,  
+    api_key :process.env.API_KEY  || "Your Cloud Key", 
+    api_secret : process.env.API_SECRET || "Your Cloud Secret"
 })
 
 
